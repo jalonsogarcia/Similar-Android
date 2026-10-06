@@ -15,6 +15,11 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
+
+        // AGP defaults this to compileSdk; don't force consumers onto the latest SDK
+        aarMetadata {
+            minCompileSdk = 21
+        }
     }
 
     buildTypes {
