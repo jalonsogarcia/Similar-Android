@@ -36,7 +36,6 @@ android {
 
 dependencies {
     implementation(project(path = ":similar"))
-    implementation(libs.androidx.core.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

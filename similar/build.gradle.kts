@@ -74,7 +74,6 @@ mavenPublishing {
 }
 
 dependencies {
-    implementation(libs.androidx.core.ktx)
     api(libs.kotlinx.coroutines.core)
     api(libs.kotlinx.coroutines.android)
     api(libs.kotlinx.serialization.json)
