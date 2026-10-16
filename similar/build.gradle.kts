@@ -39,7 +39,7 @@ android {
 
 // To publish: ./gradlew publishToMavenCentral
 mavenPublishing {
-    coordinates("com.guiyec.similar", "similar", "0.9.7")
+    coordinates("com.guiyec.similar", "similar", "0.10.0")
 
     pom {
         name.set("Similar")
